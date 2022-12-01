@@ -2,7 +2,7 @@
 
 #include <Windows.h>
 
-void vitalflea::PreventMultipleInstances() {
+void conker::tools::PreventMultipleInstances() {
 
 	auto mutex_handle = CreateMutex(NULL, TRUE, __TIME__);
 

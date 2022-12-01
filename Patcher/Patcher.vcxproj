@@ -84,12 +84,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="src\gui\Gui.cpp" />
+    <ClCompile Include="..\Dependencies\imgui\backends\imgui_impl_dx11.cpp" />
+    <ClCompile Include="..\Dependencies\imgui\backends\imgui_impl_win32.cpp" />
+    <ClCompile Include="..\Dependencies\imgui\imgui.cpp" />
+    <ClCompile Include="..\Dependencies\imgui\imgui_demo.cpp" />
+    <ClCompile Include="..\Dependencies\imgui\imgui_draw.cpp" />
+    <ClCompile Include="..\Dependencies\imgui\imgui_tables.cpp" />
+    <ClCompile Include="..\Dependencies\imgui\imgui_widgets.cpp" />
+    <ClCompile Include="src\gui\Process.cpp" />
     <ClCompile Include="src\Patcher.cpp" />
     <ClCompile Include="src\tools\Tools.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="headers\gui\Gui.hpp" />
+    <ClInclude Include="headers\gui\Process.hpp" />
+    <ClInclude Include="headers\gui\ProcessInfo.hpp" />
+    <ClInclude Include="headers\gui\WindowRect.hpp" />
     <ClInclude Include="headers\Patcher.hpp" />
     <ClInclude Include="headers\tools\Tools.hpp" />
   </ItemGroup>

@@ -1,6 +1,6 @@
 #pragma once
 
-namespace tools {
+namespace conker::tools {
 
 	void PreventMultipleInstances();
 }
