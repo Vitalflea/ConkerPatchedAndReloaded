@@ -13,6 +13,7 @@ debug_var_3 .data:0084725D // debug check
 
 ## OPCODES
 74 -> Jump if Not Zero
+
 75 -> Jump if Zero
 
 ## OTHER
