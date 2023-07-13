@@ -4,12 +4,15 @@
 s: N#KillsTotal
 the start of player stats/leaderboard
 
-## DEBUG VARIABLES
+## DEBUG VARIABLES IN RETAIL
 debug_var_1 .data:00847267 // sound effects related
 
 debug_var_2 .data:00847266 // sound effects related
 
 debug_var_3 .data:0084725D // debug check
+
+## DEBUG VARIABLES IN RETAIL
+debug_var_1 .data:01369A7D // debug check
 
 ## OPCODES
 74 -> Jump if Not Zero
